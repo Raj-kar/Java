@@ -1,0 +1,15 @@
+
+public class ErrorHandling {
+
+	public static void main(String[] args) {
+		int arr[] = {1,2,3};
+		
+		try {			
+			System.out.println(arr[4]);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}
