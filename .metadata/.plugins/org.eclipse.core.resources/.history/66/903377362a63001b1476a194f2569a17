@@ -1,7 +1,0 @@
-
-public class Test {
-	public static void main(String[] args) {
-		int b = 111;
-		System.out.println(b);
-	}
-}

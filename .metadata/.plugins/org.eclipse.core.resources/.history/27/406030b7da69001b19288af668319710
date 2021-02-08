@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a=0, b =1, c, output = 0, stop = 0;
+		stop = sc.nextInt();
+		System.out.println(stop);
+		for (int i = 0; i < stop; i++) {
+			c = a+b;
+			a = b;
+			b = c;
+			output = c;
+		}
+		System.out.println(output);
+		
+	}
+}

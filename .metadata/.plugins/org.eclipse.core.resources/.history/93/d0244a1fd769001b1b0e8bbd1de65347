@@ -1,0 +1,26 @@
+
+public class Question {
+	public static void main(String [] args) {
+		System.out.println("hello world");
+		Test2 t = new Test2();
+		t.method(1, 2);
+	}
+}
+
+class Test {
+	protected int method(int a, int b) {
+		System.out.println("YES");
+		return 0;
+	}
+}
+
+class Test2 extends Test {
+//	public int method(int a, int b) {
+//		System.out.println(a+b);
+//		return 0;
+//	}
+	public short method(int a, int b) {
+		System.out.println(a+b);
+		return 0;
+	}
+}

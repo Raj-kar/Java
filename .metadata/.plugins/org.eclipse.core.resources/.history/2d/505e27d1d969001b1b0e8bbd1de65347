@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a=0, b =1, c, output;
+		int stop = sc.nextInt();
+		
+		for (int i = 0; i < 8 - 2; i++) {
+			c = a+b;
+			a = b;
+			b = c;
+			output = c;
+		}
+		System.out.println(output);
+	}
+}

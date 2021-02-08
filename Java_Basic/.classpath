@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="NPTEL"/>
+	<classpathentry kind="src" path="Practices"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
