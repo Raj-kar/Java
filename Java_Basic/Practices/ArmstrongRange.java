@@ -3,17 +3,17 @@ import java.lang.Math;
 
 public class ArmstrongRange {
 	public static boolean isAmstrong(int num) {
-		int temp = num, rem, sum = 0;
-		int length = String.valueOf(num).length();
+	    int temp = num, rem, sum = 0;
+	    int length = String.valueOf(num).length();
 		
-		while (temp > 0) {
-            rem = temp % 10;
-            sum += (int)Math.pow(rem, length);
-            temp = temp / 10;
-        }
-        if (sum == num)
-            return true;
-		return false;
+	    while (temp > 0) {
+                rem = temp % 10;
+                sum += (int)Math.pow(rem, length);
+                temp = temp / 10;
+            }
+            if (sum == num)
+                return true;
+            return false;
 	}
 	
     public static void main(String[] args) {
